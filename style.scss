@@ -1,0 +1,233 @@
+@import "./style/mixins";
+
+* {
+  font-family: "Montserrat" sans-serif;
+}
+
+#header {
+  @extend %dis_fl;
+  justify-content: space-around;
+
+  .header_left {
+    @extend %dis_fl;
+
+    .logo_products {
+    }
+
+    .header_nav {
+      @extend %dis_fl;
+      list-style-type: none;
+
+      .nav_link {
+        text-decoration: none;
+        color: #000;
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: 700;
+        nav {
+        }
+      }
+    }
+  }
+
+  .header_right {
+    @extend %dis_fl;
+
+    .place {
+      .search_icon {
+        position: absolute;
+        z-index: 1;
+        opacity: 0, 5;
+        margin-top: 7px;
+        margin-left: 12px;
+        width: 18px;
+      }
+      .place_search {
+        position: relative;
+        padding: 10px 400px 10px 39px;
+        border-radius: 6px;
+        border: inset;
+        background: #e6e6e6;
+        border: none;
+      }
+    }
+
+    .icons {
+      @extend %dis_fl;
+      margin-left: 30px;
+
+      .icon {
+        @extend %dis_fl;
+        flex-direction: column;
+        margin-left: 20px;
+
+        .icon_img_user {
+            margin-top: 16px;
+        }
+        .active {
+          margin-top: 10px;
+          width: 100%;
+          height: 5px;
+          border-radius: 8px;
+
+          background-color: red;
+
+        }
+      }
+    }
+  }
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: #f5f5f5;
+  .mobile_verified {
+    background-color: white;
+
+    h3{
+
+    }
+
+    img{
+        width: 467px;
+    }
+    .title {
+      @extend %dis_fl;
+      gap: 10px;
+      margin-left: 20px;
+    }
+    p {
+      color: #737373;
+      font-size: 20px;
+    }
+
+    .form {
+        margin-left: 20px;
+      .region {
+        position: absolute;
+        z-index: 1;
+        border: none;
+        margin-left: 1px;
+        height: 14px;
+        margin-top: 2px;
+        border-right: groove;
+        color: #737373;
+        outline: none;
+      }
+
+      .number {
+        padding-left: 59px;
+      }
+    }
+
+    .btn {
+        margin-left: 20px;
+      padding: 13px 78px;
+      margin-top: 24px;
+      border-radius: 10px;
+      background-color: red;
+      color: #fff;
+    }
+  }
+
+  .create_account {
+    background-color:white;
+    padding: 0px 41px 40px;
+    .btn_fb {
+      .btn {
+        padding: 10px 37px;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 6px;
+        border-color: #e6e6e6;
+      }
+    }
+
+    .button {
+
+      font-size: 21px;
+      background-color: rgba(0, 0, 0, 0);
+      border-radius: 6px;
+      border-color: #e6e6e6;
+      padding: 10px 92px;
+      margin-top: 13px;
+      .icon {
+      }
+    }
+
+    .hr {
+      position: relative;
+      margin-top: 25%;
+
+      .span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white; /* Цвет фона слова */
+        padding: 0 10px; /* Отступы вокруг слова */
+        z-index: 1; /* Позволяет слову находиться поверх линий hr */
+      }
+    }
+
+    .end {
+
+      .end_btn {
+        padding: 10px 38px;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 6px;
+        border-color: #e6e6e6;
+      }
+    }
+  }
+
+
+  .verify{
+     background-color: white;
+     padding: 0px 41px 40px;
+        .title{
+
+            .text{
+                font-size: 30px;
+            }
+
+    }
+    .btn{
+        button{
+            padding: 20px 15px;
+            margin-left: 15px;
+            border-color: #e6e6e6;
+        }
+    }
+
+    .resend{
+        margin-top: 10%;
+        .text{
+            color: #737373;
+            font-size: 20px;
+
+        }
+        .red{
+            color: red;
+            font-size: 20px;
+                font-weight: 700;
+        }
+        .clock{
+            font-weight: bold;
+        }
+    }
+  }
+
+
+
+
+
+
+
+
+}

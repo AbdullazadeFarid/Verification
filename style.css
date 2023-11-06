@@ -1,0 +1,171 @@
+@charset "UTF-8";
+#main .mobile_verified .title, #header .header_right .icons .icon, #header .header_right .icons, #header .header_right, #header .header_left .header_nav, #header .header_left, #header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+* {
+  font-family: "Montserrat" sans-serif;
+}
+
+#header {
+  justify-content: space-around;
+}
+#header .header_left .header_nav {
+  list-style-type: none;
+}
+#header .header_left .header_nav .nav_link {
+  text-decoration: none;
+  color: #000;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#header .header_right .place .search_icon {
+  position: absolute;
+  z-index: 1;
+  opacity: 0, 5;
+  margin-top: 7px;
+  margin-left: 12px;
+  width: 18px;
+}
+#header .header_right .place .place_search {
+  position: relative;
+  padding: 10px 400px 10px 39px;
+  border-radius: 6px;
+  border: inset;
+  background: #e6e6e6;
+  border: none;
+}
+#header .header_right .icons {
+  margin-left: 30px;
+}
+#header .header_right .icons .icon {
+  flex-direction: column;
+  margin-left: 20px;
+}
+#header .header_right .icons .icon .icon_img_user {
+  margin-top: 16px;
+}
+#header .header_right .icons .icon .active {
+  margin-top: 10px;
+  width: 100%;
+  height: 5px;
+  border-radius: 8px;
+  background-color: red;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  background-color: #f5f5f5;
+}
+#main .mobile_verified {
+  background-color: white;
+}
+#main .mobile_verified img {
+  width: 467px;
+}
+#main .mobile_verified .title {
+  gap: 10px;
+  margin-left: 20px;
+}
+#main .mobile_verified p {
+  color: #737373;
+  font-size: 20px;
+}
+#main .mobile_verified .form {
+  margin-left: 20px;
+}
+#main .mobile_verified .form .region {
+  position: absolute;
+  z-index: 1;
+  border: none;
+  margin-left: 1px;
+  height: 14px;
+  margin-top: 2px;
+  border-right: groove;
+  color: #737373;
+  outline: none;
+}
+#main .mobile_verified .form .number {
+  padding-left: 59px;
+}
+#main .mobile_verified .btn {
+  margin-left: 20px;
+  padding: 13px 78px;
+  margin-top: 24px;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+}
+#main .create_account {
+  background-color: white;
+  padding: 0px 41px 40px;
+}
+#main .create_account .btn_fb .btn {
+  padding: 10px 37px;
+  font-size: 21px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  border-color: #e6e6e6;
+}
+#main .create_account .button {
+  font-size: 21px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  border-color: #e6e6e6;
+  padding: 10px 92px;
+  margin-top: 13px;
+}
+#main .create_account .hr {
+  position: relative;
+  margin-top: 25%;
+}
+#main .create_account .hr .span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white; /* Цвет фона слова */
+  padding: 0 10px; /* Отступы вокруг слова */
+  z-index: 1; /* Позволяет слову находиться поверх линий hr */
+}
+#main .create_account .end .end_btn {
+  padding: 10px 38px;
+  font-size: 21px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  border-color: #e6e6e6;
+}
+#main .verify {
+  background-color: white;
+  padding: 0px 41px 40px;
+}
+#main .verify .title .text {
+  font-size: 30px;
+}
+#main .verify .btn button {
+  padding: 20px 15px;
+  margin-left: 15px;
+  border-color: #e6e6e6;
+}
+#main .verify .resend {
+  margin-top: 10%;
+}
+#main .verify .resend .text {
+  color: #737373;
+  font-size: 20px;
+}
+#main .verify .resend .red {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+#main .verify .resend .clock {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
